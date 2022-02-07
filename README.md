@@ -39,10 +39,10 @@ cargo install cl-wordle --locked
 
 ```
 ## Build the image:
-docker build -t conradludgate/wordle https://github.com/conradludgate/wordle.git#main
+docker build -t wordle https://github.com/enigmacurry/wordle.git#main
 
 ## Put this alias in your ~/.bashrc:
-alias wordle='docker run --rm -it conradludgate/wordle'
+alias wordle='docker run --rm -it wordle'
 
 ## Play:
 wordle
